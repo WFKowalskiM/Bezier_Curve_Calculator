@@ -19,6 +19,7 @@ public class Main extends JFrame {
         setLayout(new BorderLayout());
 
         JPanel canvas = getjPanel();
+        // canvas.setBackground(Color.BLUE);
         add(canvas, BorderLayout.CENTER);
 
         JPanel controlPanel = new JPanel();
